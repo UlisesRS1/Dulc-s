@@ -1,0 +1,52 @@
+:root{
+    --blue-light: #18A0CAAA;
+    --blue: #18A0CA;
+    --red: #B82333; 
+    --yellow: #E3C739;
+    --white: #fff;
+    --text-gray: #505050;
+    --back-gray: #EEEDED;
+}
+
+.back{
+    background-color: var(--blue);
+}
+
+.color-white{
+    color: var(--white);
+}
+
+.width{
+    width: 30%;
+}
+
+.back-text{
+    background-color: var(--white);
+}
+
+.text-gray{
+    color: var(--text-gray);
+}
+
+.font-size{
+    font-size: 14px;
+}
+
+.btn-color{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+@media (min-width: 320px) and (max-width: 991.98px) {
+    .width{
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .width{
+        width: 50%;
+    }
+  }
+  
+  

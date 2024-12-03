@@ -20,6 +20,10 @@
     color: var(--blue);
 }
 
+.card-text{
+    color: var(--white);
+}
+
 .back-color{
     background-color: var(--blue);
 }

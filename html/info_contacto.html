@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de contacto</title>
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Protest+Riot&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style-index.css">
+    <link rel="stylesheet" href="../css/style-info-contact.css">
+    
+    <link rel="shortcut icon" href="../assets/icon/dulcs.svg"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Contenedor izquierdo -->
+            <div class="col-md-6 izq min-vh-100">
+
+                <header class="container-fluid mt-3 d-flex justify-content-center position-relative">
+                    <div class="button-cerrar position-absolute start-0">
+                        <a type="button" class="btn-close" href="../index.html"></a>
+                    </div>
+                    <div class="logo-marca text-center">
+                        <a class="logo" href="../index.html">
+                            <img src="../assets/img/Logo.png" alt="Dulc's Logo" style="height: 70px;">
+                        </a>
+                    </div>
+                </header>
+
+                <div class="container">
+                    <div class="row mt-5">
+                        <h5 class="fw-bold text-b">Información de contacto:</h5>
+                        <form id="myForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Nombre completo">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="E-mail">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Teléfono">
+                            </div>
+
+                            <!-- Dirección de envío -->
+                            <h5 class="fw-bold text-b mt-4">Dirección de envío:</h5>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Calle">
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="Número">
+                                </div>
+                                <div class="col-md-5">
+                                    <input type="text" class="form-control" placeholder="Colonia">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="C.P.">
+                                </div>
+                            </div>
+                            <div class="row g-3 mt-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Estado">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Municipio">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="row d-flex mt-5">
+                        <div class="button-sig d-flex justify-content-end">
+                            <a class="btn color-button-blue color-button-white" href="info_pago.html">
+                                Siguiente
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Contenedor derecho -->
+            <div class="col-md-6 der min-vh-100">
+
+                <div class="row mt-5">
+                    <h2 class="text-center">Resumen</h2>
+                </div>
+
+                <div class="row align-items-center p-3">
+                    <!-- Imagen del producto -->
+                    <div class="col-2">
+                        <img src="../assets/img/Takis.png" alt="Takis fuego" class="img-fluid rounded">
+                    </div>
+                    <!-- Detalles del producto -->
+                    <div class="col-6">
+                        <h5 class="fw-bold mb-1">Takis fuego</h5>
+                        <p class="mb-1 text-muted">$20</p>
+                        <div>
+                            <label for="cantidad" class="form-label small color-gray">Cantidad</label>
+                            <div class="d-flex flex-column">
+                                <input type="text" id="cantidad" class="form-control text-center" style="width: 50px;" value="30" readonly>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Botón Eliminar -->
+                    <div class="col-4 text-end">
+                        <button class="btn btn-link text-danger">Eliminar</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

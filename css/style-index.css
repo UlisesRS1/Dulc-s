@@ -37,6 +37,30 @@ body{
 
 .nav-icon{
     height: 30px;
+    width: 30px;
+}
+
+.color-text-car{
+  color: var(--blue);
+}
+
+.btn-comprar{
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.icon-button{
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .nav-icon{
+      height: 45px;
+    }
 }
 
 .footer-icon:hover {

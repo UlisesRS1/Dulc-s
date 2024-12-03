@@ -1,0 +1,38 @@
+:root{
+    --blue: #18A0CA;
+    --blue-light: #81D8F3;
+    --red: #B82333; 
+    --yellow: #E3C739;
+    --white: #fff;
+    --gray: #aaaaaa;
+}
+
+.link-card{
+    color: none;
+}
+
+.size{
+    width: fit-content;
+}
+
+.size-card-img{
+    width: 24rem;
+}
+
+.text-can{
+    color: var(--gray);
+}
+
+@media (min-width:320px){
+    
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .size-text{
+        width: 75% !important;
+    }
+
+    .margin{
+        margin-top: 7%;
+    }
+}
