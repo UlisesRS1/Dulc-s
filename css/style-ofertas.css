@@ -1,0 +1,42 @@
+:root{
+    --blue: #18A0CA;
+    --red: #B82333; 
+    --yellow: #E3C739;
+    --white: #fff;
+    --text-gray: #35353582;
+}
+
+.tille-ofertas{
+    color: var(--red);
+}
+
+.discount-text{
+    color: var(--text-gray);
+    text-decoration: line-through;
+}
+
+.offer-img{
+    height: 4rem;
+}
+
+.offer-badge {
+    position: absolute;
+    bottom: -3rem; /* Ajustado a la parte inferior */
+    
+    z-index: 10;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .offer-badge {
+        font-size: 0.7rem;
+        padding: 3px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .offer-badge {
+        font-size: 0.6rem;
+        padding: 2px 8px;
+    }
+}

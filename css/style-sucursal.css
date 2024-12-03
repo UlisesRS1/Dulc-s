@@ -1,0 +1,21 @@
+:root{
+    --blue: #18A0CA;
+    --red: #B82333; 
+    --yellow: #E3C739;
+    --white: #fff;
+    --text-gray: #515151;
+}
+
+.ancho{
+    width: fit-content;
+}
+
+.title-red{
+    color: var(--red);
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .margin{
+        margin-top: 3rem;
+    }
+  }

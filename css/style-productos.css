@@ -1,0 +1,27 @@
+:root{
+    --blue: #18A0CA;
+    --red: #B82333; 
+    --yellow: #E3C739;
+    --white: #fff;
+}
+
+.text-fix{
+    height: fit-content;
+}
+
+.lupa{
+    width: 25px;
+    height: 25px;
+}
+
+.color{
+    background-color: var(--blue);
+}
+
+.alto{
+    height: fit-content;
+}
+
+.color-white{
+    color: var(--white);
+}

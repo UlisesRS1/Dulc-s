@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de pago</title>
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Protest+Riot&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style-index.css">
+    <link rel="stylesheet" href="../css/style-pago.css">
+
+    <link rel="shortcut icon" href="../assets/icon/dulcs.svg"/>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row">
+          <!-- Sección Info produto -->
+          <div class="col-md-6 border-end">
+            <div class="p-4">
+                <div class="conjunto d-flex align-items-center">
+                    <img src="../assets/icon/tienda.svg" alt="" class="size-shop">
+                    <h5 class="ms-2 mb-0">Dulc's</h5>
+                </div>
+              <h3 class="fw-bold">Pagar a Dulc's</h3>
+              <h3 class="text-blue">3030,54 MXN</h3>
+              <hr>
+              <div class="d-flex align-items-center mb-3">
+                <img src="../assets/img/Takis.png" alt="Producto" class="size me-3">
+                <div>
+                  <p class="m-0"><strong>TAKIS FUEGO</strong></p>
+                  <p class="text-muted m-0">Descripción con el detalle que se requiere, etc...</p>
+                  <p class="text-muted m-0">Cantidad: 30</p>
+                  <p class="text-muted m-0">180,89 MXN unidad</p>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-between">
+                <span>Subtotal</span>
+                <span>2959,87 MXN</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>Envío</span>
+                <span>70.67 MXN</span>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-between fw-bold">
+                <span>Total a pagar</span>
+                <span>3030,54 MXN</span>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Sección Pago -->
+          <div class="col-md-6">
+            <div class="p-4">
+              <h5>Información de contacto</h5>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="ejemplo@gmail.com">
+              </div>
+              <h5>Método de pago</h5>
+              <div class="btn-group w-100 mb-3">
+                <button type="button" class="btn btn-outline-primary">Tarjeta</button>
+                <button type="button" class="btn btn-outline-secondary">Efectivo</button>
+              </div>
+              <h5>Información de la tarjeta</h5>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="1234 1234 1234 1234">
+              </div>
+              <div class="row g-2 mb-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="MM / AA">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="CVC">
+                </div>
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Nombre completo">
+              </div>
+              <div class="mb-3">
+                <select class="form-select">
+                  <option selected>México</option>
+                  <option>Otro país</option>
+                </select>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="guardarDatos">
+                <label class="form-check-label" for="guardarDatos">
+                  Guardar mis datos de forma segura para un proceso de compra de un clic
+                </label>
+              </div>
+              <a class="btn btn-pago w-100" href="confirmacion_pago.html">Pagar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="../js/active-button.js"></script>
+    <script src="../js/bootstrap.bundle.min.jss"></script>
+</body>
+</html>

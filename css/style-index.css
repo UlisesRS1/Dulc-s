@@ -1,0 +1,150 @@
+/* Para usar la variable, escribela con todo y los guiones */
+:root{
+    --blue: #18A0CA;
+    --red: #B82333; 
+    --yellow: #E3C739;
+    --white: #fff;
+    --text-gray: #515151;
+}
+
+body{
+    font-family: "Protest Riot", serif;
+}
+
+.navbar-color{
+    background-color: var(--yellow);
+}
+
+.font-style{
+    color: #18A0CA;
+    font-size: large;
+}
+
+.after-style:hover {
+    color: var(--white);
+}
+
+.footer-style{
+    background-color: var(--red); 
+    padding: 1rem;
+    color: var(--white);
+}
+
+.footer-icon{
+    height: 30px;
+    filter: invert(57%) sepia(90%) saturate(350%) hue-rotate(150deg);
+}
+
+.nav-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.color-text-car{
+  color: var(--blue);
+}
+
+.btn-comprar{
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.icon-button{
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .nav-icon{
+      height: 45px;
+    }
+}
+
+.footer-icon:hover {
+    filter: invert(100%) brightness(1000%);
+}
+
+.nav-icon:hover {
+    filter: invert(100%) brightness(1000%);
+}
+
+.header-style{
+    position: relative; 
+    color: #000; 
+    height: 16rem; 
+    overflow: hidden;
+}
+
+.img-position {
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin deformarse */
+    object-position: center top; /* Mueve la imagen. Aquí está centrado horizontalmente y en la parte superior */
+}
+
+
+.text-style{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: var(--white);
+}
+
+.color-button{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.img-size{
+    height: 5em;
+}
+
+.color-head{
+  background-color: var(--yellow);
+}
+
+.color-foot{
+  background-color: var(--red);
+}
+
+.offcanvas-footer{
+  padding: 1rem 1rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.logo{
+  height: 50px;
+}
+
+.link-text{
+  color: var(--blue);
+}
+
+.arrow{
+  height: 25px;
+}
+
+.ancho{
+  width: fit-content;
+  justify-self: flex-start;
+}
+
+a{
+  text-decoration: none;
+}
+
+.button-contact{
+  background-color: var(--red);
+  color: var(--blue);
+}
+
+.text-gray{
+  color: var(--text-gray);
+}
+
+.btn-enviar{
+  background-color: var(--blue);
+  color: var(--white);
+}

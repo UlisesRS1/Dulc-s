@@ -1,0 +1,34 @@
+/* Para usar la variable, escribela con todo y los guiones */
+:root{
+    --blue-light: #18A0CAAA;
+    --blue: #18A0CA;
+    --red: #B82333; 
+    --yellow: #E3C739;
+    --white: #fff;
+    --text-gray: #515151;
+}
+
+.izq{
+
+}
+
+.der{
+    background-color: var(--blue-light);
+    height: 100%;
+}
+
+.text-b{
+    color: var(--blue);
+}
+
+.color-gray{
+    color: var(--text-gray);
+}
+
+.color-button-blue{
+    background-color: var(--blue);
+}
+
+.color-button-white{
+    color: var(--white);
+}

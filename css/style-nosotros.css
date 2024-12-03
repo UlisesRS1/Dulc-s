@@ -1,0 +1,22 @@
+:root{
+    --text-gray: #353535;
+    --red: #B82333; 
+}
+
+.title{
+    color: var(--red);
+}
+
+header{
+    background-image: url("../assets/img/Fondo-nosotros.png");
+    background-size: cover;
+    height: 45rem;
+}
+
+.position{
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+
